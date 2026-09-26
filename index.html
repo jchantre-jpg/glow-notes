@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <header>
+      <p class="kicker">Notas rápidas</p>
+      <h1>Glow Notes</h1>
+      <button type="button" id="newNote">+ Nueva nota</button>
+    </header>
+    <ul id="noteList" class="note-list"></ul>
+  </aside>
+  <main class="editor">
+    <input id="title" type="text" placeholder="Título" />
+    <textarea id="body" placeholder="Escribe aquí… se guarda solo."></textarea>
+    <p class="hint" id="savedHint">Listo</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
