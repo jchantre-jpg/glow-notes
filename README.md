@@ -1,15 +1,18 @@
 # Glow Notes
 
-App de **notas con autosave** y sidebar.
+![JavaScript](https://img.shields.io/badge/vanilla-JS-F7DF1E?logo=javascript&logoColor=black)
+![Pages](https://img.shields.io/badge/demo-GitHub%20Pages-222)
 
-- Persistencia local
-- Tipografía editorial (Fraunces + Sora)
-- Lista ordenada por última edición
+App de **notas** con autosave, búsqueda, colores, conteo de palabras y export JSON.
 
-## Uso
+## Features
+- Sidebar ordenada por última edición
+- Búsqueda en título/cuerpo
+- Color por nota + export backup
+- Persistencia `localStorage`
 
-Abre `index.html`.
+## Demo
+https://jchantre-jpg.github.io/glow-notes/
 
 ## Autora
-
-Juliana Chantre Astudillo — [GitHub](https://github.com/jchantre-jpg)
+**Juliana Chantre Astudillo** · [GitHub](https://github.com/jchantre-jpg)

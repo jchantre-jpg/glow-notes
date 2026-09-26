@@ -12,12 +12,25 @@
     <header>
       <p class="kicker">Notas rápidas</p>
       <h1>Glow Notes</h1>
-      <button type="button" id="newNote">+ Nueva nota</button>
+      <input id="search" type="search" placeholder="Buscar notas…" />
+      <div class="side-actions">
+        <button type="button" id="newNote">+ Nueva</button>
+        <button type="button" id="exportNotes" class="ghost">Export</button>
+      </div>
     </header>
     <ul id="noteList" class="note-list"></ul>
   </aside>
   <main class="editor">
-    <input id="title" type="text" placeholder="Título" />
+    <div class="editor-top">
+      <input id="title" type="text" placeholder="Título" />
+      <button type="button" id="deleteNote" class="ghost danger">Eliminar</button>
+    </div>
+    <div class="meta-row">
+      <label>Color
+        <input id="color" type="color" value="#f0abfc" />
+      </label>
+      <span id="wordCount">0 palabras</span>
+    </div>
     <textarea id="body" placeholder="Escribe aquí… se guarda solo."></textarea>
     <p class="hint" id="savedHint">Listo</p>
   </main>
